@@ -330,7 +330,7 @@ strong {
 }
 
 .sticky-wrapper.is-sticky .container {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgb(0, 0, 0);
   border-radius: var(--border-radius-medium);
   padding: 15px 30px;
 }
@@ -390,7 +390,7 @@ strong {
 
 .navbar .dropdown-menu {
   background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgb(0, 0, 0);
   border: 0;
   display: inherit;
   opacity: 0;
