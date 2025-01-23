@@ -11,9 +11,9 @@ https://www.tooplate.com/view/2137-barista-cafe
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #BC6C25;
+  --primary-color:                #EFB036;
   --secondary-color:              #3B6790;
-  --section-bg-color:             #b78752;
+  --section-bg-color:             #23486A;
   --custom-btn-bg-color:          #BC6C25;
   --custom-btn-bg-hover-color:    #DDA15E;
   --dark-color:                   #000000;
@@ -662,7 +662,7 @@ strong {
 }
 
 .team-block-info {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(188, 108, 37, 1));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(21,37,51,255));
   position: absolute;
   z-index: 2;
   top: 0;
@@ -683,7 +683,7 @@ strong {
   OUR MENU              
 -----------------------------------------*/
 .menu-section {
-  background-image: url('../images/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg');
+  background-color: #152533;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -744,11 +744,11 @@ strong {
   REVIEWS              
 -----------------------------------------*/
 .reviews-section {
-  background-color: #7c5c52;
+  background-color: var(--section-bg-color);
 }
 
 .reviews-block {
-  background-color: var(--section-bg-color);
+  background-color: #152533;
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
@@ -842,7 +842,7 @@ strong {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(188, 108, 37, 1)), url('../images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(21,37,51,2551)), url('../images/slides/slidetran3.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -896,7 +896,7 @@ strong {
   CUSTOM FORM               
 -----------------------------------------*/
 .custom-form .form-control {
-  color: var(--p-color);
+  color: var(--white-color);
   border-radius: var(--border-radius-small);
   margin-bottom: 30px;
   padding-top: 13px;
@@ -908,7 +908,7 @@ strong {
 
 .custom-form .form-control:hover,
 .custom-form .form-control:focus {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   border-color: transparent;
 }
 
@@ -919,7 +919,7 @@ strong {
 }
 
 .custom-form button[type="submit"] {
-  background: var(--custom-btn-bg-color);
+  background: var(--dark-color);
   border: none;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -933,7 +933,7 @@ strong {
 .custom-form button[type="submit"]:focus {
   background: var(--white-color);
   border-color: transparent;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .contact-form .form-control,
@@ -961,7 +961,7 @@ strong {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-color: var(--primary-color);
+  background-color: rgba(21,37,51,255);
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -993,7 +993,7 @@ strong {
 }
 
 .copyright-text a {
-	color: rgba(255, 200, 160, 0.75);
+	color: var(--dark-color);
 }
 
 
@@ -1012,7 +1012,7 @@ strong {
 }
 
 .social-icon-link {
-  background: var(--primary-color);
+  background: var(--dark-color);
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-size: var(--menu-font-size);
