@@ -247,6 +247,7 @@ strong {
   background-color: var(--white-color);
   position: relative;
   border-radius: var(--border-radius-medium);
+  transition:300ms ease-in-out;
 }
 
 @media screen and (max-width: 991px) {
@@ -703,7 +704,7 @@ strong {
   color: var(--white-color);
 }
 .menu-block h6:hover {
-  color: var(--custom-btn-bg-color);
+  color:var(--primary-color);
 }
 
 .menu-block small {
@@ -1202,9 +1203,11 @@ strong {
     top: 13px;
   }
 }
-.treviews-group{
-  background-color: var(--primary-color);
+.bi-star-fill{
+  color: var(--primary-color);
+  font-size: 1em;
 }
-i{
+.text-yellow{
   color: var(--primary-color);
 }
+
